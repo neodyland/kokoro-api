@@ -1,0 +1,22 @@
+[project]
+name = "kokoro-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "huggingface-hub>=0.31.1",
+    "misaki[ja]>=0.9.4",
+    "numpy>=2.2.5",
+    "onnxruntime>=1.21.1",
+    "pyopenjtalk-plus>=0.4.1.post2",
+    "python-dotenv>=1.1.0",
+    "scipy>=1.15.2",
+    "uvicorn>=0.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
